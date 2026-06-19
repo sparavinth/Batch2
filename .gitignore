@@ -1,4 +1,10 @@
-# Ignore common binary and compiled artifacts
+# Terraform local artifacts and binary plan files
+.terraform/
+tfplan
+terraform.tfstate
+terraform.tfstate.backup
+
+# Common binary artifacts
 *.exe
 *.dll
 *.so
@@ -26,3 +32,9 @@
 *.db
 *.sqlite
 *.sqlite3
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.pdf
